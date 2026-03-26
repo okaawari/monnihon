@@ -382,7 +382,7 @@
 
     /* ─── FOOTER ─── */
     footer { padding: 120px 8% 60px; background: var(--slate-950); border-top: 1px solid var(--border-thin); }
-    .footer-grid { display: grid; grid-template-columns: 2.5fr repeat(3, 1fr); gap: 100px; margin-bottom: 100px; }
+    .footer-grid { display: grid; grid-template-columns: 1.5fr repeat(2, 1fr); gap: 100px; margin-bottom: 100px; }
     .footer-col h4 { font-family: 'Shippori Mincho B1', serif; font-size: 1.25rem; margin-bottom: 40px; color: #fff; font-weight: 800; }
     .footer-links { list-style: none; }
     .footer-links li { margin-bottom: 18px; }
@@ -400,8 +400,8 @@
       .h2-title { font-size: 2.8rem; }
       section { padding: 100px 6%; }
       .hero { padding-top: 120px; }
-      .footer-grid { grid-template-columns: 1fr; gap: 40px; text-align: center; }
-      .footer-brand { margin-inline: auto; }
+      .footer-grid { grid-template-columns: 1fr; gap: 40px; text-align: left; }
+      .footer-brand { margin-inline: 0; }
       .nav-logo { gap: 12px; }
       .logo-icon { width: 44px; height: 44px; }
       .logo-text .brand { font-size: 1.25rem; }
@@ -713,24 +713,16 @@
             </div>
           </div>
         </a>
-        <p style="color:var(--text-dim); line-height:1.8; font-size:1rem; max-width:320px">Монголчуудад зориулсан хамгийн дэлгэрэнгүй, хялбар, хурдан японы хэлний платформ.</p>
+        <p style="color:var(--text-dim); line-height:1.8; font-size:1rem; max-width:320px">Япон хэл суралцах хамгийн сонирхолтой, хэрэглэхэд хялбар монгол платформ.</p>
+        <div style="margin-top:24px; color:var(--text-dim); font-size:0.9rem">info@monnihon.mn</div>
       </div>
       <div class="footer-col">
         <h4>Платформ</h4>
         <ul class="footer-links">
-          <li><a href="#">Хичээлүүд</a></li>
+          <li><a href="#courses">Хичээлүүд</a></li>
           <li><a href="#">Флэшкард</a></li>
           <li><a href="#">Шалгалт</a></li>
           <li><a href="#">Миний амжилт</a></li>
-        </ul>
-      </div>
-      <div class="footer-col">
-        <h4>Компани</h4>
-        <ul class="footer-links">
-          <li><a href="#">Бидний тухай</a></li>
-          <li><a href="#">Блог</a></li>
-          <li><a href="#">Ажлын байр</a></li>
-          <li><a href="#">Холбоо барих</a></li>
         </ul>
       </div>
       <div class="footer-col">
