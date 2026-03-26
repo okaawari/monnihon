@@ -1,0 +1,27 @@
+# Version Control
+.git
+.gitignore
+
+# Composer & NPM
+node_modules
+vendor
+.npm
+
+# Laravel Specific
+storage/*.key
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Docker
+docker-compose.yml
+Dockerfile
+.docker
+
+# OS Specific
+.DS_Store
+Thumbs.db
